@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Kaushan+Script&family=Lato&display=swap');
+
+h1{
+    font-family: "Cormorant", serif;
+    font-style: oblique;
+    font-size: 3em;
+    text-align: center;
+    color: rgba(133, 109, 238, 0.484);
+    padding: 10px;
+    background-image: linear-gradient(to bottom, black, rgb(48, 47, 47));
+}
+
+h2{
+    border-color: black;
+    border-style: inset;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+img{
+    border-color: black;
+    border-style: inset;
+    margin-bottom: -8px;
+    margin-top: -3px;
+}

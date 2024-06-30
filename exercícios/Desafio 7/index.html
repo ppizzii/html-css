@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexivel</title>
+</head>
+<body>
+    <h1>Paisagem com Responsividade</h1>
+    <picture>
+        <source media="(max-width: 510px)" srcset="imagens/paisagem-300.jpg" type="image/jpg">
+        <source media="(max-width: 810px)" srcset="imagens/paisagem-500.jpg" type="image/jpg">
+        <source media="(max-width: 1110px)" srcset="imagens/paisagem-800.jpg" type="image/jpg">
+        <source media="(max-width: 1410px)" srcset="imagens/paisagem-1100.jpg" type="image/jpg">
+        <img src="imagens/paisagem-1400.jpg" alt="Paisagem Principal">
+    </picture>
+</body>
+</html>
