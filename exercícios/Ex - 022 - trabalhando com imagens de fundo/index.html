@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fundo</title>
+    <style>
+        body{
+            background-image: url(imagens/wallpaper001.jpg); /*Colocando imagem no fundo do site (body) usando background-image: url()*/
+        }
+
+        div.quadrado {
+            border: 1px;
+            border-color: black;
+            border-radius: 10px;
+            border-style: solid;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+        }
+
+        div#q1{
+            background-image: linear-gradient(to bottom, blue, black); /*Tipo de fundo degradê - background-image: linear gradiente*/
+        }
+
+        div#q2{
+            background-color: bisque; /*Fundo com uma cor somente fixa - backgroundcolor*/
+        }
+
+        div#q3{
+            background-image: url(imagens/pattern003.png); /*Vamos usar uma imagem para colocar no fundo de um elemento/tag/marca - background-image: url()*/
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+    
+</body>
+</html>
