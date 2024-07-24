@@ -1,0 +1,58 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100%vh;
+}
+
+header {
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+}
+
+header > h1{
+    text-align: center;
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+
+}
+
+header > p{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+header > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vx;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: black;
+    color: white;
+}
+
